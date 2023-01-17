@@ -1,0 +1,45 @@
+body {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #FFB6C1;
+}
+ul li {
+    list-style: none;
+}
+.box-tree{
+    width: 30%;
+    margin-top: 20%;
+}
+.tree span{
+    cursor: pointer;
+    height: 40px;
+    display: inline-block;
+}
+.tree span:hover{
+    border-radius: 10px;
+    border-color: #FF69B4;
+}
+.folder::before{
+    content: "";
+    background-image: url('icons/folder1.png');
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.file::before{
+    content: "";
+    background-image: url('icons/file1.png');
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}

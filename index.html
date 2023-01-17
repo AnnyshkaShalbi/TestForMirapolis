@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Test</title>
+</head>
+<body>
+    <div class="box-tree">
+        <ul class="tree" id="tree">
+            <li><span class="folder">Folder 1</span>
+                <ul>
+                    <li><span class="file">File 1.1</span></li>
+                </ul>
+            </li>
+            <li><span class="folder">Folder 2</span>
+                <ul>
+                    <li><span class="folder">Subfolder 2.1</span>
+                        <ul>
+                            <li><span class="file">File 2.1.1</span></li>
+                            <li><span class="file">File 2.1.2</span></li>
+                        </ul>
+                    </li>
+                    <li><span class="file">File 2.2</span></li>
+                </ul>
+            </li>
+            <li><span class="folder">Folder 3</span>
+                <ul hidden>
+                    <li><span class="folder">Subfolder 3.1</span>
+                        <ul>
+                            <li><span class="file">File 3.1.1</span></li>
+                        </ul>
+                    </li>
+                    <li><span class="file">File 3.1</span></li>
+                </ul>
+            </li>
+            <li><span class="file">File 4</span></li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
